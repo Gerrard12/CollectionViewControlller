@@ -12,6 +12,11 @@
 		FBBA050A1E664848000FD7C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBBA05081E664848000FD7C5 /* Main.storyboard */; };
 		FBBA050C1E664848000FD7C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBBA050B1E664848000FD7C5 /* Assets.xcassets */; };
 		FBBA050F1E664848000FD7C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBBA050D1E664848000FD7C5 /* LaunchScreen.storyboard */; };
+		FBBA05171E664B5F000FD7C5 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA05161E664B5F000FD7C5 /* ItemCell.swift */; };
+		FBBA05191E664C73000FD7C5 /* ItemCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA05181E664C73000FD7C5 /* ItemCollectionViewController.swift */; };
+		FBBA051B1E664E26000FD7C5 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA051A1E664E26000FD7C5 /* Item.swift */; };
+		FBBA051D1E66638C000FD7C5 /* NormalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA051C1E66638C000FD7C5 /* NormalViewController.swift */; };
+		FBBA051F1E666996000FD7C5 /* SegundaVistaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA051E1E666996000FD7C5 /* SegundaVistaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		FBBA050B1E664848000FD7C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBBA050E1E664848000FD7C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBBA05101E664848000FD7C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBBA05161E664B5F000FD7C5 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		FBBA05181E664C73000FD7C5 /* ItemCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewController.swift; sourceTree = "<group>"; };
+		FBBA051A1E664E26000FD7C5 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FBBA051C1E66638C000FD7C5 /* NormalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalViewController.swift; sourceTree = "<group>"; };
+		FBBA051E1E666996000FD7C5 /* SegundaVistaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegundaVistaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				FBBA05041E664848000FD7C5 /* AppDelegate.swift */,
+				FBBA051C1E66638C000FD7C5 /* NormalViewController.swift */,
 				FBBA05061E664848000FD7C5 /* ViewController.swift */,
 				FBBA05081E664848000FD7C5 /* Main.storyboard */,
 				FBBA050B1E664848000FD7C5 /* Assets.xcassets */,
 				FBBA050D1E664848000FD7C5 /* LaunchScreen.storyboard */,
 				FBBA05101E664848000FD7C5 /* Info.plist */,
+				FBBA05161E664B5F000FD7C5 /* ItemCell.swift */,
+				FBBA05181E664C73000FD7C5 /* ItemCollectionViewController.swift */,
+				FBBA051A1E664E26000FD7C5 /* Item.swift */,
+				FBBA051E1E666996000FD7C5 /* SegundaVistaViewController.swift */,
 			);
 			path = "UICollecion View en IOS";
 			sourceTree = "<group>";
@@ -136,8 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBBA051F1E666996000FD7C5 /* SegundaVistaViewController.swift in Sources */,
+				FBBA051B1E664E26000FD7C5 /* Item.swift in Sources */,
+				FBBA051D1E66638C000FD7C5 /* NormalViewController.swift in Sources */,
 				FBBA05071E664848000FD7C5 /* ViewController.swift in Sources */,
 				FBBA05051E664848000FD7C5 /* AppDelegate.swift in Sources */,
+				FBBA05171E664B5F000FD7C5 /* ItemCell.swift in Sources */,
+				FBBA05191E664C73000FD7C5 /* ItemCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
